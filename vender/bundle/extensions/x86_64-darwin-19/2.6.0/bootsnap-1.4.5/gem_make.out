@@ -1,0 +1,15 @@
+current directory: /Users/ishiharahikaru/vue_task_app/vender/bundle/gems/bootsnap-1.4.5/ext/bootsnap
+/Users/ishiharahikaru/.rbenv/versions/2.6.5/bin/ruby -I /Users/ishiharahikaru/.rbenv/versions/2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200108-2938-1dj1kdl.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ishiharahikaru/vue_task_app/vender/bundle/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/ishiharahikaru/vue_task_app/vender/bundle/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/ishiharahikaru/vue_task_app/vender/bundle/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20200108-2938-a1obkg/bootsnap
