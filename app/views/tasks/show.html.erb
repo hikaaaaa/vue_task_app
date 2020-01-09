@@ -1,7 +1,12 @@
 <h1>タスクの詳細</h1>
-
- <ul>
-  <li><%= @task.title %></li>
- </ul>
-
- <p><%= link_to '一覧に戻る', tasks_url %></p>
+<table>
+  <tr>
+    <th>Title</th>
+    <td><%= @task.title %></td></tr>
+  <tr>
+    <th>Description</th>
+    <td><%= @task.description %></td>
+  </tr>
+  
+</table>
+<p><%= link_to '一覧に戻る', tasks_url %></p>
