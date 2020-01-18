@@ -1,5 +1,5 @@
 current directory: /Users/ishiharahikaru/workplace/vue_task_app/vender/bundle/ruby/2.6.0/gems/ffi-1.11.3/ext/ffi_c
-/Users/ishiharahikaru/.rbenv/versions/2.6.5/bin/ruby -r ./siteconf20200114-4517-lenwt7.rb extconf.rb
+/Users/ishiharahikaru/.rbenv/versions/2.6.5/bin/ruby -r ./siteconf20200118-20347-128q58x.rb extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... no
 checking for shlwapi.h... no
@@ -129,4 +129,4 @@ compiling Types.c
 compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.bundle
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20200114-4517-l3ph
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20200118-20347-tw3fhy

@@ -1,5 +1,5 @@
 current directory: /Users/ishiharahikaru/workplace/vue_task_app/vender/bundle/ruby/2.6.0/gems/puma-4.3.1/ext/puma_http11
-/Users/ishiharahikaru/.rbenv/versions/2.6.5/bin/ruby -r ./siteconf20200114-4517-1kurycm.rb extconf.rb
+/Users/ishiharahikaru/.rbenv/versions/2.6.5/bin/ruby -r ./siteconf20200118-20347-13kemn7.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -41,4 +41,4 @@ linking shared-object puma/puma_http11.bundle
 
 current directory: /Users/ishiharahikaru/workplace/vue_task_app/vender/bundle/ruby/2.6.0/gems/puma-4.3.1/ext/puma_http11
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20200114-4517-14rpkwh/puma
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20200118-20347-1eeh0wm/puma

@@ -1,5 +1,5 @@
 current directory: /Users/ishiharahikaru/workplace/vue_task_app/vender/bundle/ruby/2.6.0/gems/pg-1.2.1/ext
-/Users/ishiharahikaru/.rbenv/versions/2.6.5/bin/ruby -r ./siteconf20200114-4517-13vhta1.rb extconf.rb
+/Users/ishiharahikaru/.rbenv/versions/2.6.5/bin/ruby -r ./siteconf20200118-20347-1o6relt.rb extconf.rb
 checking for pg_config... yes
 Using config values from /usr/local/bin/pg_config
 checking for libpq-fe.h... yes
@@ -154,4 +154,4 @@ linking shared-object pg_ext.bundle
 
 current directory: /Users/ishiharahikaru/workplace/vue_task_app/vender/bundle/ruby/2.6.0/gems/pg-1.2.1/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20200114-4517-2x6vnu
+/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20200118-20347-tztmb8
