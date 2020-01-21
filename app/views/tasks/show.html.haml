@@ -1,0 +1,8 @@
+.container.pt-5
+  .d-flex.align-items-center
+    %h1 タスクの詳細
+    = @task.title
+    = @task.description
+    = @task.target_at
+    .ml-auto.posts_button
+    %p= link_to '一覧に戻る', tasks_path

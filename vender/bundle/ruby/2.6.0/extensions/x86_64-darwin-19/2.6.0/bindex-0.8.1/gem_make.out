@@ -1,5 +1,5 @@
 current directory: /Users/ishiharahikaru/workplace/vue_task_app/vender/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
-/Users/ishiharahikaru/.rbenv/versions/2.6.5/bin/ruby -r ./siteconf20200114-4517-1j31eq1.rb extconf.rb
+/Users/ishiharahikaru/.rbenv/versions/2.6.5/bin/ruby -r ./siteconf20200118-20347-ypoqln.rb extconf.rb
 creating Makefile
 
 current directory: /Users/ishiharahikaru/workplace/vue_task_app/vender/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
@@ -12,4 +12,4 @@ linking shared-object skiptrace/internal/cruby.bundle
 
 current directory: /Users/ishiharahikaru/workplace/vue_task_app/vender/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20200114-4517-vfj5w2/skiptrace/internal
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20200118-20347-1fgtrjz/skiptrace/internal

@@ -1,0 +1,10 @@
+.container.pt-5
+  .d-flex.align-items-center
+    %h1 タスクの新規作成
+    .ml-auto.posts_button
+    %p= link_to '一覧に戻る', tasks_path
+  = render 'form', task: @task
+
+
+
+
