@@ -2,16 +2,8 @@
   .d-flex.align-items-center
     %h1 タスクの新規作成
     .ml-auto.posts_button
-    %p= link_to '一覧に戻る', tasks_url
-  = form_for(@task) do |f|
-    .form-label-group
-      = f.label :title, 'タスク名'
-      = f.text_field :title, class: 'form-control'
-    .form-label-group.mb-3
-      = f.label :description, 'タスク内容'
-      = f.text_area :description, size: "60*10", class: 'form-control'
-    .text-center
-      = f.submit '送信', class: "btn btn-primary btn-lg"
+    %p= link_to '一覧に戻る', tasks_path
+  = render 'form', task: @task
 
 
 

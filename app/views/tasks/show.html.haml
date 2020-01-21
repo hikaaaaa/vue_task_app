@@ -1,12 +1,8 @@
 .container.pt-5
   .d-flex.align-items-center
     %h1 タスクの詳細
+    = @task.title
+    = @task.description
+    = @task.target_at
     .ml-auto.posts_button
-    %p= link_to '一覧に戻る', tasks_url
-  = form_for(@task) do |f|
-    .form-label-group
-      = f.label :title, 'タスク名'
-      = f.text_field :title, class: 'form-control'
-    .form-label-group.mb-3
-      = f.label :description, 'タスク内容'
-      = f.text_area :description, size: "60*10", class: 'form-control'
+    %p= link_to '一覧に戻る', tasks_path
