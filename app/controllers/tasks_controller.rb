@@ -4,6 +4,8 @@ class TasksController < ApplicationController
 
   def index
     @tasks = current_user.tasks.order(:id)
+    @search = Task.ransack(params[:q])
+    @tasks = @search.result
   end
 
   def show
